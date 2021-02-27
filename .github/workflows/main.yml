@@ -18,15 +18,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
+    - uses: actions/checkout@v2.3.4
+#12.0.0
     # Runs a single command using the runners shell
     - name: Installing NodeJS
-      uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2.1.5
       with:
         node-version: 12 
     - name: GitHub Action for Yarn
-      uses: borales/actions-yarn@v2.0.0
+      uses: Borales/actions-yarn@v2.3.0
       with:
          # Yarn command
          cmd: install #Setting up dependencies for our react app by installing yarn
