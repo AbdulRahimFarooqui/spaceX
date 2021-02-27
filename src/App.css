@@ -1,0 +1,69 @@
+body{
+  background-image: url("./background-mage/StarlinkL18_03_DSC_1243.jpg");
+  color: whitesmoke;
+  font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+  font-style: normal;
+  line-height: normal;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.logo{
+  cursor: pointer;
+  user-select: none;
+  position: inherit;
+  margin-top: 1%;
+  margin-left: 35%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+}
+
+.loading-heading{
+  margin-top: -10%;
+}
+
+.heading-mission-name{
+  color: #FFC4B1;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Name-container{
+  user-select:none;
+  cursor:default;
+  margin-top: -10%;
+  height: 88vh;
+  max-height: 80%;
+  width: calc(100vw - 1000px);
+  overflow: hidden auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.MissionName{
+  display: inline;
+  font-size: 25px;
+  font-weight: 100;
+  color: black;
+}
+
+.MissionNameContainer{
+  color:whitesmoke;
+  margin-left: 10%;
+  width: 170px;
+  height: fit-content;
+  background-color: transparent;
+  display: flex;
+  margin-top: 1%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.MissionNameContainer:hover{
+  background-color:transparent;
+  color:whitesmoke;
+  cursor: pointer;
+  border-style:dotted;
+  border-width:4px;
+  border-color: whitesmoke;
+}
